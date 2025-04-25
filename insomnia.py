@@ -10,7 +10,7 @@ pol = ''
 name = ''
 age = 0
 
-# https://habr.com/ru/articles/442800/
+
 @bot.message_handler(commands=['start'])
 def start(message):
     if message.text == '/start':
